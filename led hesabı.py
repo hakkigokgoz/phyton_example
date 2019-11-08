@@ -9,7 +9,7 @@ Created on Sun Nov  3 00:11:56 2019
 print("***********************************************")
 gerilim=int(input("Kaynak Gerilimini giriniz(V): "))
 renk=input("Ledin rengini seçiniz:\n1-Kırmızı\n2-Sarı\n3-Yeşil\n4-Mavi\n")
-if renk== "1".strip():#kırmızı
+if renk== "1":#kırmızı
     renk=1.7
     akim=0.01
 elif renk== "2":#sarı
